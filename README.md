@@ -4,6 +4,7 @@ A professional-grade cricket scorecard overlay system for live streaming (OBS, v
 
 ## Features
 - **Real-time Synchronization:** Control everything from an Admin panel and see updates instantly on the Broadcast view.
+- **Manual Match Control:** Full manual override for scores, wickets, overs, and players. Perfect for matches without online scorecards.
 - **Cricinfo Data Parser:** Simply copy-paste raw text from ESPNcricinfo Live/Scorecard/Playing XI tabs to populate stats.
 - **Multiple Scenes:**
   - Mini Scorecard (Bottom-third)
@@ -28,9 +29,10 @@ A professional-grade cricket scorecard overlay system for live streaming (OBS, v
    - Click **"Parse & Update Match State"**.
 
 4. **Go Live:**
+   - Use the **Manual Match Control** buttons for one-click score updates (+1, +4, +6, Wicket).
    - Use the buttons in the "Active Overlays" section to toggle different views on the broadcast.
    - Trigger celebrations manually when major events happen.
-   - Customize colors to match the competing teams.
+   - Customize colors and team names to match the competing teams.
 
 ## OBS Setup
 1. Add a new **Browser Source** in OBS.
